@@ -55,7 +55,7 @@ public class Factory
                     	Socket s = listener.accept();
                     	System.out.println("Client connected...");
 
-
+//rrr
 	                    while (true) {
 	                    	try {
 	                    		BufferedReader input = new BufferedReader(new InputStreamReader(s.getInputStream()));
